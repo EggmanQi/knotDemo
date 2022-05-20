@@ -1,4 +1,4 @@
-##### 代码存在哪些问题的解决和优化
+## 代码存在哪些问题的解决和优化
 
 1. 启动后不显示内容
    * 相关 View 的translatesAutoresizingMaskIntoConstraints 没有设定为 false, 手动指定的约束不生效
@@ -32,7 +32,7 @@
 
 
 
-#### 翻译题
+## 翻译题
 
 功能用例
 
@@ -40,12 +40,10 @@
 
 目标
 
-*  There is an edit button at the top of the Our Wedding section that takes me to an edit view via the expand animation
+* There is an edit button at the top of the Our Wedding section that takes me to an edit view via the expand animation
   1. edit 按钮是否存在, 需要新建的话是 icon or text ?
   2. expand 动画效果要和 UI 对齐, 复杂的效果需要导出 demo 视频来确保理解一致
-  3. ~~是否有草稿的场景?~~
-  4. coding 时要考虑要更新后需要刷新的数据和页面
-  
+  3. coding 时要考虑要更新后需要刷新的数据和页面
 * I can edit the fields in the Our Wedding section
   1. 不同类型的输入框有默认的 placeholder
   2. 需要补充交互例.
@@ -79,7 +77,6 @@
 * when you hit the cancel button, any changes you've made do not save and I go back to the view page via the fold animation
   1. 是否需要提示用户?
   2. 需要的话, 要确认提示的 UI
-  
 * when you hit the done button, changes you've made save
   1. 确认完成后要跳转/回退的页面
   2. 确认数据更新逻辑
